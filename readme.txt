@@ -8,34 +8,55 @@ Stable tag: 1.0
 Donate link: https://www.paypal.me/wpjohnny
 License: GPL-2.0+  
 
-Forked version of the original lightweight jQuery lightbox for WordPress images and galleries. Featherlight CSS/JS is automatically disabled unless you manually select checkbox within each post settings.
+The most lightweight WordPress lightbox plugin...and the featherlight CSS/JS (only 7kb) is automatically disabled unless you manually enable within each post.
 
 == Description ==
 
-The original WP Featherlight is a WordPress lightbox plugin for adding a minimal, high-performance, responsive jQuery lightbox to your WordPress website. At its core, WP Featherlight is a WordPress plugin wrapper for the Featherlight jQuery lightbox plugin. When enabled, the plugin will automatically display all standard WordPress images and galleries in a simple, minimalistic lightbox popup.
+This minimal WordPress lightbox plugin adds high performance, responsive jQuery lightbox functionality to your images. When standard WordPress images/galleries are clicked, the background fades out into black as images display in lightbox popup. Galleries can be navigated with on-screen arrows, touchscreen swipes, or pressing arrows keys. 
 
-In order for WordPress images and galleries to be lightboxed, you need to select the "Media File" option when choosing where the thumbnails should link. You can also select the "Custom Link" option if you make sure to link directly to an image file. This should work for any image file, even if it's hosted on another website.
+In order for WordPress images and galleries to be lightboxed:
+- You must select the "Media File" option when choosing where thumbnails should link. You can also select the "Custom Link" option if it links directly to an image file. This should work for any image file, even if it's hosted on another website.
+- Enable on each post by checking "Enable lightbox" on the WP Featherlight settings.
+- You can also lightbox videos, iframes, and ajax content by adding data attributes to your content. For more details on custom content loading, check out the [featherlight documentation](https://github.com/noelboss/featherlight/#usage).
 
-It's also possible to lightbox videos, iframes, and ajax content with WP Featherlight by adding data attributes to your content. For more details on custom content loading, check out the [featherlight documentation](https://github.com/noelboss/featherlight/#usage).
+My plugin is simply a forked version of the original [WP Featherlight plugin](https://wordpress.org/support/plugin/wp-featherlight). Only difference is the original loads the featherlight CSS/JS on every page whereas mine only loads when you manually enable.
 
-There are no settings for WP Featherlight, so you should be able to install it without needing to configure anything. The default behavior and intention of this fork is to AUTOMATICALLY DISABLE Featherlight's CSS/JS except for posts when you specifically check the box to enable.
+= Features: =
+* Ultra-lightweight - even more lightweight than the original WP Featherlight since the lightbox CSS/JS is not loaded automatically.
+* Manual activation - to enable lightbox functionality, simply click the checkbox in your post settings.
+* Retains WP Featherlight features - has all the same features and filters as the original WP Featherlight plugin (up to version 1.3.3)
 
-If you find a display problem, it may be related to your theme but please [open an support request](https://wordpress.org/support/plugin/wp-featherlight) about it so we can look into it. For more information about the Featherlight script itself, check out their [GitHub plugin page](http://noelboss.github.io/featherlight/).
+== Installation ==
+<ol>
+	<li>Upload the folder wp-featherlight-disabled to the `/wp-content/plugins/` directory</li>
+	<li>Activate the plugin through the 'Plugins' menu in WordPress</li>
+</ol>
 
-= Developer Notes =
+== Frequently Asked Questions ==
 
-Plugin has no options. Some handy filters are available to modify default behavior. All images using default WordPress captions will also include a caption when the image is lightboxed. To disable this behavior, filter `wp_featherlight_captions` to false.
+= Does this plugin work with the newest WP version and also older versions? =
+Yes, this plugin works perfect with the latest version of WordPress! It also works with older versions as well but you should always run the latest WordPress and PHP version for best security and performance. This plugin is used in my critical sites so you can be assured it works perfect.
 
-= Contributing =
+= Will this plugin slow down my site? =
+No. It's the most lightweight lightbox plugin possible. It does only the essential function and nothing more. No heavy PHP processing or database queries. I'm an absolute speed fanatic.
 
-Can contribute to this fork or make your own from the original [fork the plugin on GitHub](https://github.com/cipherdevgroup/wp-featherlight).
+= Do you plan to add more features? =
+Probably not. This was intended as a free community plugin and to be as lightweight as possible. You're welcome to fork it and make your own.
+
+= What if I have a display problem? =
+Display problems can be related to your theme. You can open a support request or see more information on the official Featherlight script [GitHub page](https://noelboss.github.io/featherlight/).
+
+= What filters are available? =
+
+Plugin has no GUI options. Some handy filters are available to modify default behavior. All images using default WordPress captions will also include a caption when the image is lightboxed. To disable this behavior, filter `wp_featherlight_captions` to false.
 
 == Screenshots ==
 
-1. A view of the jQuery lightbox in action.
+1. A view of the (clicked) image displaying in jQuery lightbox.
+2. Manual checkbox on post setting (unchecked by default).
 
 == Changelog ==
 
 = 1.0 =
 
-Starting fork off of the official WP Featherlight version 1.3.3. For older changes, see [their official full changelog on GitHub](https://github.com/cipherdevgroup/wp-featherlight/blob/release/CHANGELOG.md)
+Starting fork off of the official WP Featherlight version 1.3.3. (Only thing changed was the default load behavior, and checkbox wording in post setting.) For older changes, see [the official WP Featherlight changelog on GitHub](https://github.com/cipherdevgroup/wp-featherlight/blob/release/CHANGELOG.md)
