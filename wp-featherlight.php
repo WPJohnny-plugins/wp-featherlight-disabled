@@ -1,8 +1,10 @@
 <?php
 /**
- * Plugin Name:  WP Featherlight Disabled by WPJ
+ * Plugin Name:  WP Featherlight Disabled
  * Plugin URI:   https://wpjohnny.com/wp-featherlight-disabled/
  * Description:  An ultra lightweight jQuery lightbox for WordPress images and galleries.
+ * Donate link: https://www.paypal.me/wpjohnny
+ * Tags: image, gallery, lightbox, featherlight
  * Version:      1.0
  * Author:       WPJohnny
  * Author URI:   https://wpjohnny.com
