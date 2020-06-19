@@ -41,7 +41,7 @@ Yes, this plugin works perfect with the latest version of WordPress! It also wor
 No. It's the most lightweight lightbox plugin possible. It does only the essential function and nothing more. No heavy PHP processing or database queries. I'm an absolute speed fanatic.
 
 = Do you plan to add more features? =
-Probably not. This was intended as a free community plugin and to be as lightweight as possible. You're welcome to fork it and make your own.
+Probably not. This was intended as a free community plugin and to be as lightweight as possible. You're welcome to fork it and make your own. Or if you need a more full-featured image gallery, I love Jordy's [Meow Gallery] plugin(https://wordpress.org/plugins/meow-gallery/). That WP Featherlight and Meow Gallery are the 2 most lightweight and developer-grade image/gallery plugins IMO. I wouldn't use anything else.
 
 = What if I have a display problem? =
 Display problems can be related to your theme. You can open a support request or see more information on the official Featherlight script [GitHub page](https://noelboss.github.io/featherlight/).
