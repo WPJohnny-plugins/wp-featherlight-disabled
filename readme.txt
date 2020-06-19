@@ -24,7 +24,7 @@ If you find a display problem, it may be related to your theme but please [open 
 
 = Developer Notes =
 
-Plugin has no options. Some handy filters are available to modify defaul behavior. All images using default WordPress captions will also include a caption when the image is lightboxed. To disable this behavior, filter `wp_featherlight_captions` to false.
+Plugin has no options. Some handy filters are available to modify default behavior. All images using default WordPress captions will also include a caption when the image is lightboxed. To disable this behavior, filter `wp_featherlight_captions` to false.
 
 = Contributing =
 
