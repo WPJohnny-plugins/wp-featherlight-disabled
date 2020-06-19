@@ -3,8 +3,9 @@
 Contributors: wpjohnny, yin
 Tags: lightbox, jquery lightbox, jquery, gallery, image, lightbox images, image lightbox, lightbox gallery, lightbox image, lightbox popup, featherlight, photo gallery, popup image, popup images, popup lightbox, responsive lightbox, swipe, wordpress image lightbox, wordpress lightbox, wordpress slideshow lightbox, photography, images, minimal, responsive, photo, photos  
 Requires at least: 4.0  
-Tested up to: 5.4.1  
-Stable tag: 1.3.3  
+Tested up to: 5.4.2  
+Stable tag: 1.0
+Donate link: https://www.paypal.me/wpjohnny
 License: GPL-2.0+  
 
 Forked version of the original lightweight jQuery lightbox for WordPress images and galleries. Featherlight CSS/JS is automatically disabled unless you manually select checkbox within each post settings.
