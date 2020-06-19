@@ -19,7 +19,7 @@ In order for WordPress images and galleries to be lightboxed:
 - Enable on each post by checking "Enable lightbox" on the WP Featherlight settings.
 - You can also lightbox videos, iframes, and ajax content by adding data attributes to your content. For more details on custom content loading, check out the [featherlight documentation](https://github.com/noelboss/featherlight/#usage).
 
-My plugin is simply a forked version of the original [WP Featherlight plugin](https://wordpress.org/support/plugin/wp-featherlight). Only difference is the original loads the featherlight CSS/JS on every page whereas mine only loads when you manually enable.
+My plugin is simply a forked version of the original [WP Featherlight plugin](https://wordpress.org/support/plugin/wp-featherlight). Only difference is the original loads the featherlight CSS/JS on every page whereas mine only loads when you manually enable. Big thanks to Yin and Walter for contributing.
 
 = Features: =
 * Ultra-lightweight - even more lightweight than the original WP Featherlight since the lightbox CSS/JS is not loaded automatically.
