@@ -1,4 +1,4 @@
-=== WP Featherlight Disabled - A Simple jQuery Lightbox ===
+=== WP Featherlight Disabled ===
 
 Contributors: wpjohnny, yin
 Tags: lightbox, jquery lightbox, jquery, gallery, image, lightbox images, image lightbox, lightbox gallery, lightbox image, lightbox popup, featherlight, photo gallery, popup image, popup images, popup lightbox, responsive lightbox, swipe, wordpress image lightbox, wordpress lightbox, wordpress slideshow lightbox, photography, images, minimal, responsive, photo, photos  
