@@ -8,7 +8,7 @@ Stable tag: 1.0
 Donate link: https://www.paypal.me/wpjohnny
 License: GPL-2.0+  
 
-The most lightweight WordPress lightbox plugin...and the featherlight CSS/JS (only 7kb) is automatically disabled unless you manually enable within each post.
+The most lightweight WordPress lightbox plugin...the featherlight CSS/JS (only 7kb) and automatically disabled unless you manually enable within each post.
 
 == Description ==
 
