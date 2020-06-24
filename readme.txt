@@ -14,10 +14,10 @@ The most lightweight WordPress lightbox plugin...and the featherlight CSS/JS (on
 
 This minimal WordPress lightbox plugin adds high performance, responsive jQuery lightbox functionality to your images. When standard WordPress images/galleries are clicked, the background fades out into black as images display in lightbox popup. Galleries can be navigated with on-screen arrows, touchscreen swipes, or pressing arrows keys. 
 
-In order for WordPress images and galleries to be lightboxed:
-- You must select the "Media File" option when choosing where thumbnails should link. You can also select the "Custom Link" option if it links directly to an image file. This should work for any image file, even if it's hosted on another website.
-- Enable on each post by checking "Enable lightbox" on the WP Featherlight settings.
-- You can also lightbox videos, iframes, and ajax content by adding data attributes to your content. For more details on custom content loading, check out the [featherlight documentation](https://github.com/noelboss/featherlight/#usage).
+= To load WordPress images and galleries in lightbox: =
+* You must select the "Media File" option when choosing where thumbnails should link. You can also select the "Custom Link" option if it links directly to an image file. This should work for any image file, even if it's hosted on another website.
+* Enable on each post by checking "Enable lightbox" on the WP Featherlight settings.
+* You can also lightbox videos, iframes, and ajax content by adding data attributes to your content. For more details on custom content loading, check out the [featherlight documentation](https://github.com/noelboss/featherlight/#usage).
 
 My plugin is simply a forked version of the original [WP Featherlight plugin](https://wordpress.org/support/plugin/wp-featherlight). Only difference is the original loads the featherlight CSS/JS on every page whereas mine only loads when you manually enable. Big thanks to Yin and Walter for contributing.
 
