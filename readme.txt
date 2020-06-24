@@ -35,7 +35,7 @@ My plugin is simply a forked version of the original [WP Featherlight plugin](ht
 == Frequently Asked Questions ==
 
 = Does this plugin work with the newest WP version and also older versions? =
-Yes, this plugin works perfect with the latest version of WordPress! It also works with older versions as well but you should always run the latest WordPress and PHP version for best security and performance. This plugin is used in my critical sites so you can be assured it works perfect.
+Yes, this plugin works perfect with the latest version of WordPress! It also works with older versions as well but you should always run the latest WordPress and PHP version for best security and performance. This plugin is used on my critical sites so you can be assured it works perfect.
 
 = Will this plugin slow down my site? =
 No. It's the most lightweight lightbox plugin possible. It does only the essential function and nothing more. No heavy PHP processing or database queries. I'm an absolute speed fanatic.
@@ -48,7 +48,7 @@ Display problems can be related to your theme. You can open a support request or
 
 = What filters are available? =
 
-Plugin has no GUI options. Some handy filters are available to modify default behavior. All images using default WordPress captions will also include a caption when the image is lightboxed. To disable this behavior, filter `wp_featherlight_captions` to false.
+The plugin has no GUI options. Some handy filters are available to modify default behavior. All images using default WordPress captions will also include a caption when the image is lightboxed. To disable this behavior, filter `wp_featherlight_captions` to false.
 
 == Screenshots ==
 
