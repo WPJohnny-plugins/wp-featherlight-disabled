@@ -4,9 +4,8 @@
  * Plugin URI:   https://wpjohnny.com/wp-featherlight-disabled/
  * Description:  An ultra lightweight jQuery lightbox for WordPress images and galleries.
  * Donate link: https://www.paypal.me/wpjohnny
- * Version:      1.0
- * Author:       WPJohnny
- * Author URI:   https://wpjohnny.com
+ * Version:      1.0.4
+ * Author: <a href="https://wpjohnny.com">WPJohnny</a>, <a href="https://profiles.wordpress.org/zeroneit/">zerOneIT</a>
  * License:      GPL-2.0+
  * License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:  wp-featherlight
@@ -44,6 +43,22 @@ add_action( 'plugins_loaded', array( wp_featherlight(), 'run' ) );
 function wp_featherlight() {
 	static $plugin;
 	if ( null === $plugin ) {
+		if (get_option('featherlight_plugin_db_updated') != 'yes') {
+	        // update code here.
+			global $wpdb;
+			$results = $wpdb->get_results('SELECT * FROM ' . $wpdb->prefix . 'postmeta WHERE meta_key="wp_featherlight_disable"');
+			if (count($results)) {
+				foreach ($results as $r) {
+					$post_id = $r->post_id;
+					$meta_value = $r->meta_value;
+					update_post_meta($post_id, 'zeroneit_featherlight_disable', $meta_value);
+				}
+			}
+
+	        // delete transient.
+	        update_option( 'featherlight_plugin_db_updated', 'yes' );
+	    }
+
 		$plugin = new WP_Featherlight( array( 'file' => __FILE__ ) );
 	}
 	return $plugin;
